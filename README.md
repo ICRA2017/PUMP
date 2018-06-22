@@ -1,5 +1,7 @@
 # Parallel Uncertainty-aware Multiobjective Planning
 
+[![Docker Build Status](https://img.shields.io/docker/build/icra2017/pump.svg)](https://hub.docker.com/r/icra2017/pump/)
+
 This repo contains the code for "Real-Time Stochastic Kinodynamic Motion Planning via Multiobjective Search on GPUs," which presents the parallel uncertainty-aware multiobjective planning algorithm submitted to ICRA '17 for solving the stochastic kinodynamic motion planning problem.
 
 It is written in CUDA C and setup to run a 3D double integrator (in a 6D configuration space). PUMP can be compiled with 
