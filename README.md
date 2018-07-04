@@ -31,8 +31,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 # Run in Docker
 
+Tested in Ubuntu 14.04.5, Docker version 18.03.1-ce, nvidia-docker 2.0, GeForce GTX-960, driver 384.130, CUDA Version 8.0.61.
+
 ```
 $ nvidia-docker run -it --rm icra2017/pump
+root@4904e4bdbdb6:/PUMP# cd PUMP
 root@4904e4bdbdb6:/PUMP# ./pump input.txt 0.01 2
 ***** Reading in init, goal, obs took: 0.104 ms *****
 
